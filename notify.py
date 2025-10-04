@@ -13,7 +13,7 @@ class NotificationKit:
 		self.email_pass: str = os.getenv('EMAIL_PASS', '')
 		self.email_to: str = os.getenv('EMAIL_TO', '')
 		self.smtp_server: str = os.getenv('CUSTOM_SMTP_SERVER', '')
-		self.pushplus_token = os.getenv('PUSHPLUS_TOKEN')
+		self.pushplus_token = os.getenv('6e2943bd71ba418c8e8b20f3c86f815a')
 		self.server_push_key = os.getenv('SERVERPUSHKEY')
 		self.dingding_webhook = os.getenv('DINGDING_WEBHOOK')
 		self.feishu_webhook = os.getenv('FEISHU_WEBHOOK')
